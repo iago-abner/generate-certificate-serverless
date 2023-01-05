@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../src/functions/hello.ts"],
+  "sourcesContent": ["import { APIGatewayProxyHandler } from \"aws-lambda\"\n\nexport const handler: APIGatewayProxyHandler = async (event) => {\n  return {\n    statusCode: 201,\n    body: JSON.stringify({\n      message: \"Hello world!\"\n    })\n  }\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAEO,IAAM,UAAkC,OAAO,UAAU;AAC9D,SAAO;AAAA,IACL,YAAY;AAAA,IACZ,MAAM,KAAK,UAAU;AAAA,MACnB,SAAS;AAAA,IACX,CAAC;AAAA,EACH;AACF;",
+  "names": []
+}
